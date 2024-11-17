@@ -78,7 +78,7 @@ export const PROJECTS = [
     technologies: ["HTML", "Javascript", "MongoDB", "React", "Tailwind CSS", "Node.js", "Express.js", "Vite", "GitHub"],
   },
   {
-    title: "Clock In/Clock Out Webist",
+    title: "Clock In/Clock Out Website",
     image: project2,
     description:
       "I developed a web application for my dad’s business to streamline employee time tracking. This React-based platform allowed employees to clock in and out, with a weekly log that provided a summary of work hours and performance for easy review. Guided by my experienced cousin, I gathered requirements, designed wireframes, and implemented features to track attendance, punctuality, and work time—all tailored to meet the business’s specific needs.",
