@@ -12,7 +12,7 @@ South Florida, set to graduate in May 2026. I’m actively seeking a software en
 skills and gain hands-on experience in the field. Beyond coding, I love exploring new places and have traveled to many countries and states 
 across the U.S.—like here at the Washington Monument, capturing memories along the way.`;
 
-export const ABOUT_TEXT = `I'm proficient in Python, C, C++, C#, SQL, JavaScript, and React.js, with a solid foundation in both front-end and 
+export const ABOUT_TEXT = `I'm proficient in Python, C, C++, C#, SQL, JavaScript, and Go, with a solid foundation in both front-end and 
 back-end technologies. Driven by curiosity, I love exploring new programming languages, algorithms, and data structures to sharpen my 
 problem-solving skills. As I grow as a developer, I’m excited to collaborate on dynamic teams, tackle challenging projects, and contribute 
 to meaningful solutions. Committed to hands-on learning, I look forward to gaining real-world experience in software engineering. And here’s 
