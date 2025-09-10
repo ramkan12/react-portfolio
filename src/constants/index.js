@@ -40,40 +40,33 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
-    year: "August 2024 - Present",
-    role: "Independent Front-End Developer",
-    company: "Self-Employed",
-    description: `Designed and developed custom portfolio websites for college students using React, Tailwind CSS, and Framer Motion. 
-                  Delivered modern, responsive layouts tailored to clients' goals, increasing engagement with potential employers by 35% 
-                  and expanding the client base by 50% through consistent, high-quality work.`,
+    year: "August 2024 - May 2025",
+    role: "Freelance Front-End Developer",
+    company: "Independent Contractor",
+    description: `Developed custom portfolio websites for clients. Delivered responsive, modern designs that helped clients 
+    showcase their work professionally to potential employers.`,
     technologies: ["HTML", "JavaScript", "React", "Tailwind CSS", "Framer Motion", "Node.js", "Vite", "GitHub"],
   },
   {
     year: "May 2024 - August 2024",
-    role: "SQL Data Reporting Assistant",
+    role: "Technical Assistant",
     company: "Global Vision, Ft. Lauderdale, FL",
-    description: `Developed and optimized SQL queries to extract and organize data from an ERP system for the accounting department. 
-                  Streamlined data retrieval processes to deliver timely and accurate financial insights, enabling data-driven decision-making.`,
+    description: `Supported SQL database operations and reporting for ERP systems serving enterprise clients in retail and luxury 
+    goods sectors.`,
     technologies: ["SQL", "ERP Systems"],
   },
   {
     year: "May 2022 - August 2023",
-    role: "Graphic Designer",
+    role: "UI/UX Designer Intern",
     company: "Inner Vision Inc., St. Petersburg, FL",
-    description: `Designed app wireframes and user interface elements using Figma, ensuring a user-friendly experience. Conducted research 
-                  on professional design templates and created detailed process flowcharts to map the application's user journey.`,
+    description: `Designed app wireframes and user interface mockups in Figma for a mobile application, conducting design research 
+    to inform usability decisions.`,
     technologies: ["Figma", "UI/UX Design"],
   },
 ];
 
 
 export const PROJECTS = [
-  {
-    title: "Topic Tide: Game Data Insights Platform",
-    image: project1,
-    description: "I'm currently collaborating with my cousins and a senior developer to build a robust platform for gathering and analyzing game-related data from sources like Reddit and Twitter. This project uses machine learning to organize and process large datasets, providing valuable insights that we report back to game developers, such as those for Minecraft With a focus on database management and data processing, this long-term project aims to deliver a competitive, data-driven solution for the gaming industry.",
-    technologies: ["HTML", "Javascript", "MongoDB", "React", "Tailwind CSS", "Node.js", "Express.js", "Vite", "GitHub"],
-  },
   {
     title: "Clock In/Clock Out Website",
     image: project2,
