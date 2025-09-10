@@ -7,35 +7,32 @@ import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
 import project8 from "../assets/projects/project-8.jpg";
 
-export const HERO_CONTENT = `Hi, I’m Riham Khan, a passionate and dedicated junior pursuing a B.S. in Computer Science at the University of 
-South Florida, set to graduate in May 2026. I’m actively seeking a software engineering internship for summer 2025 to further develop my 
-skills and gain hands-on experience in the field. Beyond coding, I love exploring new places and have traveled to many countries and states 
-across the U.S.—like here at the Washington Monument, capturing memories along the way.`;
+export const HERO_CONTENT = `Hi, I'm Riham Khan, a passionate and dedicated senior pursuing a B.S. in Computer Science at the University of 
+South Florida, set to graduate in May 2026. I'm actively seeking software engineering opportunities for summer 2025 and beyond to further 
+develop my skills and gain hands-on experience in the field. Beyond coding, I love exploring new places and have traveled to many countries 
+and states across the U.S.—like here in New York City, capturing memories along the way.`;
 
-export const ABOUT_TEXT = `I'm proficient in Python, C, C++, C#, SQL, JavaScript, and Go, with a solid foundation in both front-end and 
-back-end technologies. Driven by curiosity, I love exploring new programming languages, algorithms, and data structures to sharpen my 
-problem-solving skills. As I grow as a developer, I’m excited to collaborate on dynamic teams, tackle challenging projects, and contribute 
-to meaningful solutions. Committed to hands-on learning, I look forward to gaining real-world experience in software engineering. And here’s 
-a glimpse of my desk setup, complete with my favorite Olipop flavor: Crisp Apple!`;
+export const ABOUT_TEXT = `I'm proficient in Python, JavaScript, TypeScript, SQL, and Go, with expertise in modern full-stack 
+technologies including React, Node.js, and cloud platforms. Driven by curiosity, I love exploring emerging technologies, algorithms, and 
+system design patterns to sharpen my problem-solving skills. As I grow as a developer, I'm excited to collaborate on dynamic teams, tackle 
+challenging projects, and contribute to scalable solutions. Committed to continuous learning, I look forward to gaining real-world experience 
+in software engineering. And here's a glimpse of my desk setup, complete with my favorite Olipop flavor: Crisp Apple!`;
 
 export const EDUCATION = [
   {
     year: "August 2022 - Expected May 2026",
     role: "B.S. in Computer Science",
     company: "University of South Florida",
-    description: `Currently a third-year student, building a strong foundation in software development, data structures, and algorithms. 
-                  Proficient in multiple programming languages, including Python, C++, and JavaScript, with hands-on experience in projects 
-                  ranging from web development to embedded systems using Arduino. 
-                  Actively seeking opportunities to apply my skills in a real-world environment through internships.`,
-    technologies: ["Python", "C", "C++", "C#", "Javascript", "React.js"],
+    description: `Senior with full-stack development experience in C++, C#, Python, and Java. Completed coursework in Data Structures, 
+    Analysis of Algorithms, Software Engineering, and Database Design.`,
+    technologies: ["Python", "C", "C++", "C#", "Javascript", "React.js", "Java", "SQL"],
   },
   {
     year: "Graduated May 2022",
     role: "High School Student",
     company: "Universal Academy of Florida, Tampa, FL",
-    description: `Discovered a passion for Computer Science through coursework in Python, completing projects focused on problem-solving 
-                  and algorithms. Engaged in self-study and school activities that deepened my interest in software development. Built 
-                  foundational skills in coding, critical thinking, and problem-solving, inspiring me to pursue Computer Science in college.`,
+    description: `Discovered passion for Computer Science through Python coursework and algorithm projects. Built foundational coding and 
+    problem-solving skills that inspired pursuit of CS in college.`,
     technologies: ["Python"],
   },
 
