@@ -70,53 +70,46 @@ export const PROJECTS = [
   {
     title: "Clock In/Clock Out Website",
     image: project2,
-    description:
-      "I developed a web application for my dad’s business to streamline employee time tracking. This React-based platform allowed employees to clock in and out, with a weekly log that provided a summary of work hours and performance for easy review. Guided by my experienced cousin, I gathered requirements, designed wireframes, and implemented features to track attendance, punctuality, and work time—all tailored to meet the business’s specific needs.",
-    technologies: ["HTML", "Javascript", "Moment.js", "React", "Tailwind CSS", "Node.js", "GitHub"],
+    description: "Full-stack employee time tracking application with Go backend and React TypeScript frontend. Features JWT authentication, geolocation verification for fraud prevention, and vacation management with real-time status updates.",
+      technologies: ["Go", "Gin Framework", "SQLite", "React", "TypeScript", "JWT Authentication", "RESTful APIs", "Geolocation API"],
   },
   {
-    title: "React Portfolio Website",
+    title: "AI Resume Analyzer & Generator",
     image: project3,
-    description:
-      "Built a personal portfolio website using React.js with a modern, responsive design, styled with Tailwind CSS and animated with Framer Motion. This site showcases my projects and technical skills in web development. It highlights my proficiency in front-end development and serves as a display for various projects.",
-    technologies: ["HTML", "Javascript", "Framer Motion", "React", "Tailwind CSS", "Node.js", "Vite", "GitHub"],
+    description: "Python web application using Streamlit and OpenAI's GPT API to analyze resumes and provide personalized feedback. Features PDF text extraction and real-time AI-powered suggestions tailored to specific job roles.",
+    technologies: ["Python", "Streamlit", "OpenAI GPT API", "PyPDF2", "File I/O", "Natural Language Processing"],
   },
   {
-    title: "Expense Tracker",
+    title: "Smart Expense Tracker Desktop Application",
     image: project4,
-    description: `Developed a Python-based application designed to help users manage their monthly budgets and minimize unnecessary expenses. 
-                  The tool tracks and categorizes spending, offering real-time data entry, budget comparison, and automated summaries. 
-                  Users benefited from detailed visualizations and actionable insights, enabling better financial decision-making.`,
-    technologies: ["Python", "pandas", "matplotlib", "tkinter", "sqlite", "Excel"],
+    description: "Desktop financial management application using Python with multi-tab GUI interface. Features SQLite database integration, budget tracking, and interactive matplotlib visualizations for spending analysis.",
+    technologies: ["Python", "Tkinter", "SQLite", "matplotlib", "pandas", "tkcalendar"],
   },
   {
-    title: "J.E.F.F. Google Voice Assistant",
+    title: "J.E.F.F. Voice Assistant",
     image: project5,
-    description:
-    "This Python-based voice assistant brings my little paper-made dinosaur to life, handling tasks like web browsing, email, and spoken responses. Using speech_recognition to capture commands and gTTS to “speak” through the dinosaur, it responds interactively to user prompts. This project enhanced my skills in Python, voice recognition, and automation while adding a playful touch.",
-    technologies: ["Python", "gTTS", "pyAudio", "SpeechRecognition", "smtplib", "Webbrowser", "OS Module", "MPG123"],
+    description: "Python intelligent assistant with natural language processing, web automation, and conversation capabilities. Features time/date functions, calculations, and modular architecture for feature expansion.",
+    technologies: ["Python", "SpeechRecognition", "gTTS", "webbrowser", "datetime", "random", "requests"],
   },
+  
   {
-    title: "Dijkstra’s Algorithm",
+    title: "Dijkstra's Algorithm",
     image: project6,
-    description:
-    "For my Data Structures final project, I implemented Dijkstra's Algorithm in C++ to calculate the shortest path in a graph. I developed components for vertex and edge management, applying priority queue logic for efficiency. This project strengthened my understanding of graph theory, algorithm design, and C++ programming.",
-    technologies: ["C++", "Algorithm Design"],
+    description: "Implemented Dijkstra's shortest path algorithm in C++ with vertex/edge management and priority queue optimization. Demonstrates understanding of graph theory, algorithm design, and efficient data structures.",
+    technologies: ["C++", "Algorithm Design", "Data Structures", "Graph Theory"],
   },
   {
     title: "Regina George Discord Bot",
     image: project7,
-    description:
-      "Created a Discord bot inspired by Mean Girls’ Regina George, featuring witty, sarcastic responses. Built with Python and discord.py, the bot delivers dynamic, custom phrases and movie quotes. This project demonstrates my skills in asynchronous programming, API integration, and creative bot design.",
-    technologies: ["Python", "discord.py", "dotenv"],
+    description: "Discord bot with witty, sarcastic responses built using Python and discord.py. Features dynamic custom phrases and demonstrates asynchronous programming and API integration skills.",
+    technologies: ["Python", "discord.py", "API Integration", "Asynchronous Programming"],
   },
   {
-    title: "Arduino Ultrasonic and Motor- Driven Dump Truck ",
+    title: "Autonomous Arduino Dump Truck",
     image: project8,
-    description:
-      "As Software Lead, I programmed an Arduino-based dump truck toy with ultrasonic sensors for obstacle detection and a buzzer for feedback. I collaborated with hardware and design leads to manage motor control and wiring. This project enhanced my skills in embedded systems, C++ programming, and teamwork.",
-    technologies: ["C++", "Arduino.ino"],
-  },
+    description: "Developed autonomous navigation system using three ultrasonic sensors for 360-degree obstacle detection with differential steering control and audio feedback. Implemented intelligent turning logic based on sensor data comparison.",
+    technologies: ["C++", "Arduino", "Embedded Systems", "Autonomous Navigation", "Sensor Integration"],
+  }
 ];
 
 export const CONTACT = {
