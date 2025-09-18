@@ -58,7 +58,7 @@ export const EXPERIENCES = [
   {
     year: "May 2022 - August 2023",
     role: "UI/UX Designer Intern",
-    company: "Inner Vision Inc., St. Petersburg, FL",
+    company: "Loci App Startup, St. Petersburg, FL",
     description: `Designed app wireframes and user interface mockups in Figma for a mobile application, conducting design research 
     to inform usability decisions.`,
     technologies: ["Figma", "UI/UX Design"],
@@ -68,7 +68,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Clock In/Clock Out Website",
+    title: "Employee Time Tracking System",
     image: project2,
     description: "Full-stack employee time tracking application with Go backend and React TypeScript frontend. Features JWT authentication, geolocation verification for fraud prevention, and vacation management with real-time status updates.",
       technologies: ["Go", "Gin Framework", "SQLite", "React", "TypeScript", "JWT Authentication", "RESTful APIs", "Geolocation API"],
