@@ -40,6 +40,15 @@ export const EDUCATION = [
 
 export const EXPERIENCES = [
   {
+    year: "September 2025 - Present",
+    role: "Python Backend Developer",
+    company: "Magic Notes Startup, Remote",
+    description: `Built production REST API to automate patient follow-up form generation for healthcare platform serving frontline workers 
+    nationwide. Integrated Flask backend with Claude AI and Supabase PostgreSQL, processing 100+ patient appointments while maintaining HIPAA 
+    compliance standards.`,
+    technologies: ["Python", "Flask", "REST APIs", "Claude AI", "Supabase", "PostgreSQL", "Heroku", "Render", "API Development"],
+  },
+  {
     year: "August 2024 - May 2025",
     role: "Freelance Front-End Developer",
     company: "Independent Contractor",
