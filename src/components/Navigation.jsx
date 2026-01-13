@@ -7,7 +7,7 @@ const Navigation = () => {
             <div className="mb-8 flex items-center justify-center gap-6 text-4xl">
 
                 <a
-                    href = "https://www.linkedin.com/in/riham-khan-037969249/"    // hypertext reference, directs to that link
+                    href = "https://www.linkedin.com/in/riham-k-037969249/"    // hypertext reference, directs to that link
                     target = "_blank"     // opens a new tab, so current stays open
                     rel = "noopener noreferrer"     // safety lock for external links
                     className = "transition-colors hover:text-cyan-400"     // makes color changes smooth, and changes icon to cyan when hovered over
