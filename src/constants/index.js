@@ -87,6 +87,8 @@ export const PROJECTS = [
     image: project3,
     description: "Python web application using Streamlit and OpenAI's GPT API to analyze resumes and provide personalized feedback. Features PDF text extraction and real-time AI-powered suggestions tailored to specific job roles.",
     technologies: ["Python", "Streamlit", "OpenAI GPT API", "PyPDF2", "File I/O", "Natural Language Processing"],
+    link: "https://ramkan12-python-ai-resume-critiquer-main-malabi.streamlit.app/",
+    github: "https://github.com/ramkan12/Python-AI-Resume-Critiquer",
   },
   {
     title: "Smart Expense Tracker Desktop Application",
@@ -118,6 +120,8 @@ export const PROJECTS = [
     image: project8,
     description: "Developed autonomous navigation system using three ultrasonic sensors for 360-degree obstacle detection with differential steering control and audio feedback. Implemented intelligent turning logic based on sensor data comparison.",
     technologies: ["C++", "Arduino", "Embedded Systems", "Autonomous Navigation", "Sensor Integration"],
+    link: "https://www.youtube.com/watch?v=MdCv9IWylZ0",
+    github: "https://github.com/ramkan12/Arduino-Dumptruck",
   }
 ];
 
