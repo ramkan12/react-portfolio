@@ -90,10 +90,12 @@ export const PROJECTS = [
     github: "https://github.com/ramkan12/Python-AI-Resume-Critiquer",
   },
   {
-    title: "Smart Expense Tracker Desktop Application",
-    image: project3,
-    description: "Desktop financial management application using Python with multi-tab GUI interface. Features SQLite database integration, budget tracking, and interactive matplotlib visualizations for spending analysis.",
-    technologies: ["Python", "Tkinter", "SQLite", "matplotlib", "pandas", "tkcalendar"],
+    title: "J.E.F.F. Voice Assistant",
+    image: project5,
+    description: "Python intelligent assistant with natural language processing, web automation, and conversation capabilities. Features time/date functions, calculations, and modular architecture for feature expansion.",
+    technologies: ["Python", "SpeechRecognition", "gTTS", "webbrowser", "datetime", "random", "requests"],
+    link: "https://j-e-f-f-ai-voice-assistant.onrender.com/",
+    github: "https://github.com/ramkan12/J.E.F.F-Voice-Assistant?tab=readme-ov-file",
   },
   {
     title: "Autonomous Arduino Dump Truck",
@@ -103,24 +105,25 @@ export const PROJECTS = [
     link: "https://www.youtube.com/watch?v=MdCv9IWylZ0",
     github: "https://github.com/ramkan12/Arduino-Dumptruck",
   },
-  
   {
-    title: "J.E.F.F. Voice Assistant",
-    image: project5,
-    description: "Python intelligent assistant with natural language processing, web automation, and conversation capabilities. Features time/date functions, calculations, and modular architecture for feature expansion.",
-    technologies: ["Python", "SpeechRecognition", "gTTS", "webbrowser", "datetime", "random", "requests"],
+    title: "Smart Expense Tracker Desktop Application",
+    image: project3,
+    description: "Desktop financial management application using Python with multi-tab GUI interface. Features SQLite database integration, budget tracking, and interactive matplotlib visualizations for spending analysis.",
+    technologies: ["Python", "Tkinter", "SQLite", "matplotlib", "pandas", "tkcalendar"],
   },
   {
     title: "Regina George Discord Bot",
     image: project6,
-    description: "Discord bot with witty, sarcastic responses built using Python and discord.py. Features dynamic custom phrases and demonstrates asynchronous programming and API integration skills.",
-    technologies: ["Python", "discord.py", "API Integration", "Asynchronous Programming"],
+    description: "Character-driven Discord bot featuring Regina George's personality from Mean Girls. Built with Python and discord.py, implementing event-driven architecture with pattern-matching response logic, randomized reply selection, and private messaging support.",
+    technologies: ["Python", "discord.py", "Event-Driven Architecture", "Pattern Matching", "Asynchronous Programming"],
+    github: "https://github.com/ramkan12/ReginaGeorgeDiscordBot",
   },
   {
     title: "Dijkstra's Algorithm",
     image: project7,
     description: "Implemented Dijkstra's shortest path algorithm in C++ with vertex/edge management and priority queue optimization. Demonstrates understanding of graph theory, algorithm design, and efficient data structures.",
     technologies: ["C++", "Algorithm Design", "Data Structures", "Graph Theory"],
+    github: "https://github.com/ramkan12/Dijkstra-s-Algorithm",
   }
 ];
 
