@@ -90,10 +90,10 @@ export const PROJECTS = [
     github: "https://github.com/ramkan12/Python-AI-Resume-Critiquer",
   },
   {
-    title: "J.E.F.F. Voice Assistant",
+    title: "J.E.F.F. AI Voice Assistant",
     image: project5,
-    description: "Python intelligent assistant with natural language processing, web automation, and conversation capabilities. Features time/date functions, calculations, and modular architecture for feature expansion.",
-    technologies: ["Python", "SpeechRecognition", "gTTS", "webbrowser", "datetime", "random", "requests"],
+    description: "Web-based voice assistant with AI-powered responses using Groq API. Features speech recognition, text-to-speech, weather updates, calculations, jokes, and natural conversation. Built with Flask backend and Web Speech API for seamless voice interaction.",
+    technologies: ["Python", "Flask", "Groq AI", "Web Speech API", "JavaScript", "OpenWeatherMap API", "HTML/CSS", "Gunicorn"],
     link: "https://j-e-f-f-ai-voice-assistant.onrender.com/",
     github: "https://github.com/ramkan12/J.E.F.F-Voice-Assistant?tab=readme-ov-file",
   },
