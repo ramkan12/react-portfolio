@@ -76,10 +76,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Employee Time Tracking System",
+    title: "Workly - Employee Time Tracking System",
     image: project1,
     description: "Full-stack employee time tracking application with Go backend and React TypeScript frontend. Features JWT authentication, geolocation verification for fraud prevention, and vacation management with real-time status updates.",
-      technologies: ["Go", "Gin Framework", "SQLite", "React", "TypeScript", "JWT Authentication", "RESTful APIs", "Geolocation API"],
+    technologies: ["Go", "Gin Framework", "SQLite", "React", "TypeScript", "JWT Authentication", "RESTful APIs", "Geolocation API"],
+    link: "https://workly-frontend-bf7g6.ondigitalocean.app/",
   },
   {
     title: "AI Resume Analyzer & Generator",
