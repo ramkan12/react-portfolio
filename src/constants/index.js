@@ -76,7 +76,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Workly - Employee Time Tracking System",
+    title: "Workly - Employee Time Tracking App",
     image: project1,
     description: "React Native mobile application with a Node.js and Express backend for tracking employee attendance and time. Features JWT authentication, geolocation-based clock-in verification, missed clock corrections, time-off requests, and email verification via AWS SES.",
     technologies: ["Node.js", "Express", "MongoDB", "React Native", "Expo", "TypeScript", "Redux Toolkit", "JWT Authentication", "RESTful APIs", "Geolocation API", "AES Encryption", "AWS SES"]
