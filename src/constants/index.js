@@ -78,8 +78,8 @@ export const PROJECTS = [
   {
     title: "Workly - Employee Time Tracking System",
     image: project1,
-    description: "Full-stack employee time tracking application with Go backend and React TypeScript frontend. Features JWT authentication, geolocation verification for fraud prevention, and vacation management with real-time status updates.",
-    technologies: ["Go", "Gin Framework", "SQLite", "React", "TypeScript", "JWT Authentication", "RESTful APIs", "Geolocation API"],
+    description: "React Native mobile application with a Node.js and Express backend for tracking employee attendance and time. Features JWT authentication, geolocation-based clock-in verification, missed clock corrections, time-off requests, and email verification via AWS SES.",
+    technologies: ["Node.js", "Express", "MongoDB", "React Native", "Expo", "TypeScript", "Redux Toolkit", "JWT Authentication", "RESTful APIs", "Geolocation API", "AES Encryption", "AWS SES"]
     link: "https://workly-frontend-bf7g6.ondigitalocean.app/",
   },
   {
