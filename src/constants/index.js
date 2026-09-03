@@ -1,40 +1,64 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
-import project6 from "../assets/projects/project-6.jpg";
-import project7 from "../assets/projects/project-7.jpg";
+export const HERO_TAGLINE = `I build production AI agents: autonomous systems that read, reason, take action, and verify their own work.`;
 
-export const HERO_CONTENT = `Hi, I'm Riham Khan, a passionate and dedicated senior pursuing a B.S. in Computer Science at the University of 
-South Florida, set to graduate in May 2026. I'm actively seeking software engineering opportunities for summer 2025 and beyond to further 
-develop my skills and gain hands-on experience in the field. Beyond coding, I love exploring new places and have traveled to many countries 
-and states across the U.S.—like here in New York City, capturing memories along the way.`;
+export const HERO_SUBTEXT = `I build LLM-powered agentic systems across tool use, RAG, multi-model orchestration, and evaluation, plus the reliability layer that makes them safe in production.`;
 
-export const ABOUT_TEXT = `I'm proficient in Python, JavaScript, TypeScript, SQL, and Go, with expertise in modern full-stack 
-technologies including React, Node.js, and cloud platforms. Driven by curiosity, I love exploring emerging technologies, algorithms, and 
-system design patterns to sharpen my problem-solving skills. As I grow as a developer, I'm excited to collaborate on dynamic teams, tackle 
-challenging projects, and contribute to scalable solutions. Committed to continuous learning, I look forward to gaining real-world experience 
-in software engineering. And here's a glimpse of my desk setup, complete with my favorite Olipop flavor: Crisp Apple!`;
+export const HERO_LOCATION = `Tampa, FL · open to remote / relocating to NYC`;
 
-export const EDUCATION = [
+export const ABOUT_TEXT = `I'm a software engineer who moved into agentic AI. I got hooked on the gap between "clever in a demo" and "reliable in production," and now spend most of my time in that gap: tool-use design, RAG, multi-model routing, and the evaluation layer that tells you whether an agent is actually safe to ship. I care about the boring-sounding parts most people skip, like benchmarking, audit trails, and human-review queues, because that's what turns an agentic pipeline from a party trick into real infrastructure.`;
+
+export const ABOUT_FOOTNOTE = `B.S. Computer Science, University of South Florida, May 2026. When I'm not shipping agents: exploring new cities and defending Crisp Apple as the correct Olipop flavor.`;
+
+export const SKILLS = [
   {
-    year: "August 2022 - Expected May 2026",
-    role: "B.S. in Computer Science",
-    company: "University of South Florida",
-    description: `Senior with full-stack development experience in C++, C#, Python, and Java. Completed coursework in Data Structures, 
-    Analysis of Algorithms, Software Engineering, and Database Design.`,
-    technologies: ["Python", "C", "C++", "C#", "Javascript", "React.js", "Java", "SQL"],
+    label: "agentic_ai",
+    title: "Agentic AI & LLMs",
+    items: [
+      "LLM Orchestration",
+      "Agentic Pipelines",
+      "Tool Use / Function Calling",
+      "RAG",
+      "Prompt Engineering",
+      "Structured Outputs",
+      "Multi-Model Routing",
+      "LLM Evaluation & Benchmarking",
+      "Claude API",
+      "OpenAI API",
+      "Gemini",
+    ],
   },
   {
-    year: "Graduated May 2022",
-    role: "High School Student",
-    company: "Universal Academy of Florida, Tampa, FL",
-    description: `Discovered passion for Computer Science through Python coursework and algorithm projects. Built foundational coding and 
-    problem-solving skills that inspired pursuit of CS in college.`,
-    technologies: ["Python"],
+    label: "backend",
+    title: "Backend & Systems",
+    items: [
+      "Python",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "FastAPI",
+      "PostgreSQL",
+      "REST APIs",
+      "RBAC",
+      "Async",
+      "Git",
+    ],
   },
-
+  {
+    label: "frontend",
+    title: "Frontend",
+    items: ["React", "Next.js", "TypeScript", "Tailwind", "shadcn/ui"],
+  },
+  {
+    label: "infra",
+    title: "Infra & Tooling",
+    items: [
+      "Docker",
+      "Modal",
+      "Serverless",
+      "CI/CD",
+      "Integration Testing",
+      "Google OAuth",
+    ],
+  },
 ];
 
 export const EXPERIENCES = [
@@ -42,94 +66,90 @@ export const EXPERIENCES = [
     year: "September 2025 - Present",
     role: "Python Backend Developer",
     company: "Magic Notes Startup, Remote",
-    description: `Built production REST API to automate patient follow-up form generation for healthcare platform serving frontline workers 
-    nationwide. Integrated Flask backend with Claude AI and Supabase PostgreSQL, processing 100+ patient appointments while maintaining HIPAA 
-    compliance standards.`,
-    technologies: ["Python", "Flask", "REST APIs", "Claude AI", "Supabase", "PostgreSQL", "Heroku", "Render", "API Development"],
-  },
-  {
-    year: "August 2024 - May 2025",
-    role: "Freelance Front-End Developer",
-    company: "Independent Contractor",
-    description: `Developed custom portfolio websites for clients. Delivered responsive, modern designs that helped clients 
-    showcase their work professionally to potential employers.`,
-    technologies: ["HTML", "JavaScript", "React", "Tailwind CSS", "Framer Motion", "Node.js", "Vite", "GitHub"],
+    description: `Built a production REST API to automate patient follow-up form generation for a healthcare platform serving frontline workers nationwide. Integrated a Flask backend with Claude AI for document generation and Supabase PostgreSQL for storage, processing 100+ patient appointments while maintaining HIPAA compliance standards.`,
+    technologies: ["Python", "Flask", "REST APIs", "Claude AI", "Supabase", "PostgreSQL", "Heroku", "Render"],
   },
   {
     year: "May 2024 - August 2024",
     role: "Technical Assistant",
     company: "Global Vision, Ft. Lauderdale, FL",
-    description: `Supported SQL database operations and reporting for ERP systems serving enterprise clients in retail and luxury 
-    goods sectors.`,
+    description: `Supported SQL database operations and reporting for ERP systems serving enterprise clients in the retail and luxury goods sectors.`,
     technologies: ["SQL", "ERP Systems"],
   },
   {
-    year: "May 2022 - August 2023",
-    role: "UI/UX Designer Intern",
-    company: "Loci App Startup, St. Petersburg, FL",
-    description: `Designed app wireframes and user interface mockups in Figma for a mobile application, conducting design research 
-    to inform usability decisions.`,
-    technologies: ["Figma", "UI/UX Design"],
+    year: "August 2024 - May 2025",
+    role: "Freelance Front-End Developer",
+    company: "Independent Contractor",
+    description: `Developed custom portfolio websites for clients. Delivered responsive, modern designs that helped clients showcase their work professionally to potential employers.`,
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Node.js", "Vite"],
   },
 ];
-
 
 export const PROJECTS = [
   {
-    title: "Workly - Employee Time Tracking App",
-    image: project1,
-    description: "React Native mobile application with a Node.js and Express backend for tracking employee attendance and time. Features JWT authentication, geolocation-based clock-in verification, missed clock corrections, time-off requests, and email verification via AWS SES.",
-    technologies: ["Node.js", "Express", "MongoDB", "React Native", "Expo", "TypeScript", "Redux Toolkit", "JWT Authentication", "RESTful APIs", "Geolocation API", "AES Encryption", "AWS SES"]
+    flagship: true,
+    title: "Accmatica",
+    subtitle: "Full-Stack AI-Powered Accounting Platform",
+    file: "~/projects/accmatica",
+    description: `A production-grade, multi-tenant accounting platform (modeled on QuickBooks Online) with an autonomous AI document pipeline at its core. Incoming client emails are polled via the Gmail API, PDFs are extracted from arbitrary MIME structures, and a single Claude API call simultaneously classifies the document (invoice vs. bank statement, AP vs. AR) and extracts structured financial data, which is then routed to a human-review queue and, on approval, written into a real double-entry ledger through a fully audited service layer. Built on Node.js/TypeScript, PostgreSQL, and React, with role-based access control, tenant isolation, and 157+ integration tests against a live database. Includes a custom LLM benchmarking harness that compares Claude and Gemini models on real invoice PDFs across accuracy, latency, and cost per request, surfacing a silent AP/AR misclassification in a cheaper model and identifying a configuration that matched frontier accuracy at roughly 80x lower cost. RAG-based natural-language querying over the firm's financial data is in progress.`,
+    metrics: [
+      { label: "feature tabs", value: "23" },
+      { label: "migrations", value: "47" },
+      { label: "integration tests", value: "157+" },
+      { label: "tenant isolation", value: "yes" },
+      { label: "audit trail", value: "full" },
+    ],
+    technologies: [
+      "Agentic Pipeline",
+      "LLM Orchestration",
+      "Claude API",
+      "Gmail API",
+      "RAG (in progress)",
+      "Model Evaluation",
+      "TypeScript",
+      "PostgreSQL",
+      "React",
+    ],
+  },
+  {
+    title: "Newsletter Automation Pipeline",
+    subtitle: "Multi-Tool Autonomous Agent",
+    file: "~/projects/newsletter-agent",
+    description: `An end-to-end autonomous agent chaining Perplexity (research), Claude (content + styling), Kie.ai (image generation), and Gmail (delivery) into a single command, deployed serverlessly on Modal with a weekly schedule.`,
+    technologies: ["Multi-Tool Agent", "Modal", "Claude API", "Perplexity", "Gmail API", "Serverless"],
+  },
+  {
+    title: "LLM Routing & Evaluation Study",
+    subtitle: "Model Benchmark & Cost/Quality Routing",
+    file: "~/projects/llm-routing-study",
+    description: `A rigorous benchmark of six frontier and budget LLMs on messy real-world business data, scored against a ground-truth answer key across data-quality handling, accuracy, and cost — surfacing a hidden pricing trap most models missed and a model that returned nothing at all. Demonstrates evaluation rigor and cost/quality routing judgment.`,
+    technologies: ["LLM Evaluation", "Model Routing", "Cost Optimization", "Benchmarking"],
+  },
+  {
+    title: "Workly",
+    subtitle: "Employee Time Tracking System",
+    file: "~/projects/workly",
+    description: `Full-stack time tracking app: a React Native mobile client backed by a Node.js/Express API. Features JWT authentication, geolocation-based clock-in verification, missed clock corrections, time-off requests, and email verification via AWS SES.`,
+    technologies: ["Node.js", "Express", "MongoDB", "React Native", "TypeScript", "JWT", "AWS SES"],
     link: "https://workly-frontend-bf7g6.ondigitalocean.app/",
   },
   {
-    title: "AI Resume Analyzer & Generator",
-    image: project2,
-    description: "Python web application using Streamlit and OpenAI's GPT API to analyze resumes and provide personalized feedback. Features PDF text extraction and real-time AI-powered suggestions tailored to specific job roles.",
-    technologies: ["Python", "Streamlit", "OpenAI GPT API", "PyPDF2", "File I/O", "Natural Language Processing"],
-    link: "https://ramkan12-python-ai-resume-critiquer-main-malabi.streamlit.app/",
-    github: "https://github.com/ramkan12/Python-AI-Resume-Critiquer",
-  },
-  {
-    title: "J.E.F.F. AI Voice Assistant",
-    image: project5,
-    description: "Web-based voice assistant with AI-powered responses using Groq API. Features speech recognition, text-to-speech, weather updates, calculations, jokes, and natural conversation. Built with Flask backend and Web Speech API for seamless voice interaction.",
-    technologies: ["Python", "Flask", "Groq AI", "Web Speech API", "JavaScript", "OpenWeatherMap API", "HTML/CSS", "Gunicorn"],
+    title: "J.E.F.F.",
+    subtitle: "AI Voice Assistant",
+    file: "~/projects/jeff-voice-assistant",
+    description: `Web-based voice assistant with AI-powered responses via the Groq API. Speech recognition and text-to-speech, weather lookups, calculations, and natural conversation, built on a Flask backend with the Web Speech API for real-time voice interaction.`,
+    technologies: ["Python", "Flask", "Groq AI", "Web Speech API", "OpenWeatherMap API"],
     link: "https://j-e-f-f-ai-voice-assistant.onrender.com/",
-    github: "https://github.com/ramkan12/J.E.F.F-Voice-Assistant?tab=readme-ov-file",
+    github: "https://github.com/ramkan12/J.E.F.F-Voice-Assistant",
   },
-  {
-    title: "Autonomous Arduino Dump Truck",
-    image: project4,
-    description: "Developed autonomous navigation system using three ultrasonic sensors for 360-degree obstacle detection with differential steering control and audio feedback. Implemented intelligent turning logic based on sensor data comparison.",
-    technologies: ["C++", "Arduino", "Embedded Systems", "Autonomous Navigation", "Sensor Integration"],
-    link: "https://www.youtube.com/watch?v=MdCv9IWylZ0",
-    github: "https://github.com/ramkan12/Arduino-Dumptruck",
-  },
-  {
-    title: "Smart Expense Tracker Desktop Application",
-    image: project3,
-    description: "Desktop financial management application using Python with multi-tab GUI interface. Features SQLite database integration, budget tracking, and interactive matplotlib visualizations for spending analysis.",
-    technologies: ["Python", "Tkinter", "SQLite", "matplotlib", "pandas", "tkcalendar"],
-  },
-  {
-    title: "Regina George Discord Bot",
-    image: project6,
-    description: "Character-driven Discord bot featuring Regina George's personality from Mean Girls. Built with Python and discord.py, implementing event-driven architecture with pattern-matching response logic, randomized reply selection, and private messaging support.",
-    technologies: ["Python", "discord.py", "Event-Driven Architecture", "Pattern Matching", "Asynchronous Programming"],
-    github: "https://github.com/ramkan12/ReginaGeorgeDiscordBot",
-  },
-  {
-    title: "Dijkstra's Algorithm",
-    image: project7,
-    description: "Implemented Dijkstra's shortest path algorithm in C++ with vertex/edge management and priority queue optimization. Demonstrates understanding of graph theory, algorithm design, and efficient data structures.",
-    technologies: ["C++", "Algorithm Design", "Data Structures", "Graph Theory"],
-    github: "https://github.com/ramkan12/Dijkstra-s-Algorithm",
-  }
 ];
 
 export const CONTACT = {
-  address: "Tampa Bay Area, FL",
-  phoneNo: "+12 4555 666 00 ",
+  location: "Tampa, FL — open to relocationd",
   email: "khanriham38@gmail.com",
+  github: "https://github.com/ramkan12",
+  githubLabel: "github.com/ramkan12",
+  linkedin: "https://www.linkedin.com/in/riham-k-037969249/",
+  linkedinLabel: "linkedin.com/in/riham-k-037969249",
+  resume: "/resume.pdf",
 };

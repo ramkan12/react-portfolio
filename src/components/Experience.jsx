@@ -1,56 +1,41 @@
 import { EXPERIENCES } from "../constants";
-import { motion } from "framer-motion";
+import Reveal from "./Reveal";
+import SectionLabel from "./SectionLabel";
 
 const Experience = () => {
-    return (
-        <div className="border-b border-neutral-900 pb-4">
-            <motion.h2
-            whileInView={{opacity: 1, y: 0}}
-            initial={{opacity: 0, y: -75}}
-            transition={{duration: 0.5}}
-            viewport={{ once: true }}
-            className="my-20 text-center text-red-300 text-4xl">Experience</motion.h2>
+  return (
+    <section id="experience" className="border-b border-term-border py-20 scroll-mt-24">
+      <SectionLabel index="03" id="experience.log" title="Experience" />
 
-            <div>
-                {EXPERIENCES.map((experience, index) => (
-                    <div 
-                    key={index} 
-                    className="mb-8 flex flex-wrap lg:justify-center">
-                        <motion.div
-                        whileInView={{opacity: 1, x: 0}}
-                        initial={{opacity: 0, x: -100}}
-                        transition={{duration: 1}}
-                        viewport={{ once: true }}
-                        className="w-full lg:w-1/4">
-                            <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
-                        </motion.div>  
+      <div className="flex flex-col gap-10">
+        {EXPERIENCES.map((experience) => (
+          <div key={experience.role} className="flex flex-wrap gap-x-8 gap-y-3">
+            <Reveal direction="left" className="w-full sm:w-40 sm:flex-shrink-0">
+              <p className="font-mono text-sm text-term-green">{experience.year}</p>
+            </Reveal>
 
-                        <motion.div
-                        whileInView={{opacity: 1, x: 0}}
-                        initial={{opacity: 0, x: 100}}
-                        transition={{duration: 1}}
-                        viewport={{ once: true }}
-                        className="w-full max-w-xl lg:w-3/4">
-                            <h6 className="mb-2 font-semibold">
-                                {experience.role} - {" "}
-                                <span className="text-sm text-cyan-300">
-                                    {experience.company}
-                                </span>
-                            </h6>
-                            <p className="mb-4 text-neutral-400">{experience.description}</p>
-                            {experience.technologies.map((tech, index) => (
-                                <span 
-                                key={index} 
-                                className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800">
-                                    {tech}
-                                </span>
-                            ))}
-                        </motion.div>
-                    </div>
+            <Reveal direction="right" className="max-w-2xl flex-1">
+              <h3 className="font-semibold text-term-text">
+                {experience.role}{" "}
+                <span className="font-mono text-sm text-term-cyan">— {experience.company}</span>
+              </h3>
+              <p className="mt-2 leading-relaxed text-term-muted">{experience.description}</p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {experience.technologies.map((tech) => (
+                  <span
+                    key={tech}
+                    className="rounded border border-term-border bg-term-panel px-2 py-1 font-mono text-xs text-term-amber"
+                  >
+                    {tech}
+                  </span>
                 ))}
-            </div>
-        </div>
-    );
+              </div>
+            </Reveal>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Experience;
