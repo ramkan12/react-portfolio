@@ -2,7 +2,7 @@ export const HERO_TAGLINE = `I build production AI agents: autonomous systems th
 
 export const HERO_SUBTEXT = `I build LLM-powered agentic systems across tool use, RAG, multi-model orchestration, and evaluation, plus the reliability layer that makes them safe in production.`;
 
-export const HERO_LOCATION = `Tampa, FL · open to remote / relocating to NYC`;
+export const HERO_LOCATION = `Tampa, FL · open to relocation`;
 
 export const ABOUT_TEXT = `I'm a software engineer who moved into agentic AI. I got hooked on the gap between "clever in a demo" and "reliable in production," and now spend most of my time in that gap: tool-use design, RAG, multi-model routing, and the evaluation layer that tells you whether an agent is actually safe to ship. I care about the boring-sounding parts most people skip, like benchmarking, audit trails, and human-review queues, because that's what turns an agentic pipeline from a party trick into real infrastructure.`;
 
