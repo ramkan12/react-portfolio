@@ -91,7 +91,11 @@ export const PROJECTS = [
     title: "Accmatica",
     subtitle: "Full-Stack AI-Powered Accounting Platform",
     file: "~/projects/accmatica",
-    description: `A production-grade, multi-tenant accounting platform (modeled on QuickBooks Online) with an autonomous AI document pipeline at its core. Incoming client emails are polled via the Gmail API, PDFs are extracted from arbitrary MIME structures, and a single Claude API call simultaneously classifies the document (invoice vs. bank statement, AP vs. AR) and extracts structured financial data, which is then routed to a human-review queue and, on approval, written into a real double-entry ledger through a fully audited service layer. Built on Node.js/TypeScript, PostgreSQL, and React, with role-based access control, tenant isolation, and 157+ integration tests against a live database. Includes a custom LLM benchmarking harness that compares Claude and Gemini models on real invoice PDFs across accuracy, latency, and cost per request, surfacing a silent AP/AR misclassification in a cheaper model and identifying a configuration that matched frontier accuracy at roughly 80x lower cost. RAG-based natural-language querying over the firm's financial data is in progress.`,
+    teaser: `An autonomous AI document pipeline inside a production accounting platform: emails in, Claude classifies and extracts each PDF, a human approves, and it posts to a real audited double-entry ledger. Includes a custom LLM benchmarking harness that caught a cheaper model matching frontier accuracy at ~80x lower cost, and another silently misclassifying invoices.`,
+    fullDescription: [
+      `A production-grade, multi-tenant accounting platform (modeled on QuickBooks Online) with an autonomous AI document pipeline at its core. Client emails are polled via the Gmail API, a single Claude call classifies each PDF (invoice vs. bank statement, AP vs. AR) and extracts structured data, and results route to a human-review queue before being written to a real double-entry ledger through a fully audited service layer.`,
+      `Built on Node.js/TypeScript, PostgreSQL, and React with role-based access control, tenant isolation, and 157+ integration tests. A custom benchmarking harness compares Claude and Gemini on real invoices across accuracy, latency, and cost. One finding: a cheaper model matched frontier accuracy at ~80x lower cost, while another silently misclassified AP/AR. RAG querying over the firm's financials is in progress.`,
+    ],
     metrics: [
       { label: "feature tabs", value: "23" },
       { label: "migrations", value: "47" },
@@ -145,7 +149,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  location: "Tampa, FL — open to relocationd",
+  location: "Tampa, FL — open to relocation",
   email: "khanriham38@gmail.com",
   github: "https://github.com/ramkan12",
   githubLabel: "github.com/ramkan12",
