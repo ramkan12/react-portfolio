@@ -117,6 +117,22 @@ const FlagshipCard = ({ project }) => {
           </div>
         </div>
 
+        {project.highlights && (
+          <div className="mt-4 rounded border border-term-border bg-term-bg p-4">
+            <p className="font-mono text-xs text-term-muted">
+              <span className="text-term-green">$</span> cat highlights.md
+            </p>
+            <ul className="mt-3 flex flex-col gap-2">
+              {project.highlights.map((highlight) => (
+                <li key={highlight.slice(0, 24)} className="flex gap-2 text-sm leading-relaxed text-term-muted">
+                  <span className="font-mono text-term-green">&gt;</span>
+                  <span>{highlight}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         <Tags technologies={project.technologies} />
         <ProjectLinks link={project.link} github={project.github} />
       </TerminalWindow>
